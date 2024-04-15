@@ -727,7 +727,7 @@ header.sticky{
 
 
 .client{
-    background-color: #f7f7f7;
+    background-color: #f7f7f7 !important;
 }
 
 .client-container{

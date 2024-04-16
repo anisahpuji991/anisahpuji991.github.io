@@ -357,6 +357,7 @@ header.sticky{
     transform: translateY(-8px);
     border: 2px solid var(--main-color);
     background: transparent;
+    color: var(--fourth-color);
 }
 
 .service-all{
@@ -794,7 +795,7 @@ header.sticky{
 }
 
 .client-slider::before,.client-slider:after{
-    background: linear-gradient(to right,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right,rgba(247,247,247,1) 0%,rgba(255,255,255,0) 100%);
     content: '';
     height: 100%;
     position: absolute;

@@ -16,3 +16,17 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navbar.classList.remove('active');
 }
+
+const btn = document.querySelector('#contact_btn');
+const inputs = document.querySelector('form');
+btn.addEventListener('click',()=>{
+    Email.send({
+        Host:"sandbox.smtp.mailtrap.io",
+        Username:'3f03f90ff3663f',
+        Password:'674813e97ce445',
+        To:'framconsultant@gm.com',
+        From:inputs.elements["contact_email"].value,
+        Subject:inputs.elements["contact_subject"].value,
+        Body:inputs.elements["contact_msg"].value
+    }).then(msg=>alert("The email successfully sent"))
+})

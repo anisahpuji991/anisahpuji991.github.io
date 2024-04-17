@@ -20,6 +20,7 @@ window.onscroll = () => {
 const btn = document.querySelector('#contact_btn');
 const inputs = document.querySelector('form');
 btn.addEventListener('click',()=>{
+    //alert(inputs.elements["contact_email"].value);
     Email.send({
         Host:"sandbox.smtp.mailtrap.io",
         Username:'704d949b130fb0',
@@ -27,6 +28,6 @@ btn.addEventListener('click',()=>{
         To:'frameconsultant@gm.com',
         From:inputs.elements["contact_email"].value,
         Subject:inputs.elements["contact_subject"].value,
-        Body:inputs.elements["contact_msg"].value
+        Body:"Test body"
     }).then(msg=>alert("The email successfully sent"))
 })

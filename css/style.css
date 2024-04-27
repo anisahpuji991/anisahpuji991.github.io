@@ -46,7 +46,7 @@ header{
     width: 100%;
     top:0;
     right:0;
-    z-index:1000;
+    z-index:10001;
     display:flex;
     align-items:center;
     justify-content: space-between;
@@ -167,7 +167,7 @@ header{
 #menu-icon{
     font-size: 32px;
     color: var(--text-color);
-    z-index: 10001;
+    z-index: 1000;
     cursor: pointer;
     display: none;
 }
@@ -1609,6 +1609,258 @@ header.sticky{
         --h2-font: 3.8rem;
         --p-font:1.1rem;
     }
+
+    .home{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/header-bg-plain.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-text{
+        width: 100%;
+    }
+    
+    .home-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 2.5rem;
+    }
+    
+    .home-text h3{
+        font-size: 15px;
+        width: 50%;
+        padding-top: 10px;
+    }
+
+
+    .about .about-text {
+        /* display: grid; */
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    .about2 .container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        grid-gap: 3rem;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 40px;
+    }
+
+    .about-text h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .about2 .about-text h4{
+        color:var(--fourth-color);
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about2-text p {
+        color: var(--fourth-color);
+        line-height: 28px;
+        max-width: 800px;
+        margin-bottom: 35px;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .value-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .value-text h3 {
+        font-size: 25pt;
+    }
+
+    .value-content {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 2rem;
+    }
+
+    .value-row p {
+        font-size: 1rem;
+    }
+
+    .service-all-pre-text h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .service-all-img{
+        text-align: center;
+        margin-bottom: 30px;
+        max-width: 100%;
+        width:400px;
+    }
+    .service-all-img img{
+        max-width: 100%;
+        width:400px;
+        height: auto;
+    }
+
+    .service-all .btn{
+        display: block;
+        text-align: center;
+    }
+
+    .service-all-text h2 {
+        font-size: 22pt;
+    }
+
+    .service-all-text p {
+        font-size: 1rem;
+        padding-bottom: 10pt;
+    }
+
+    .service-outbound{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .service-outbound-text h2 {
+        font-size: 22pt;
+    }
+
+    .service-outbound-text p {
+        font-size: 1rem;
+        padding-bottom: 10pt;
+    }
+
+    .services-outbound-img{
+        text-align: center;
+        margin-bottom: 30px;
+        width:400px;
+    }
+    .services-outbound-img img{
+        max-width: 100%;
+        width:400px;
+        height: auto;
+    }
+
+    .service-outbound .btn{
+        display: block;
+        text-align: center;
+    }
+
+    .service-educational{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .services-educational-img{
+        text-align: center;
+        margin-bottom: 30px;
+        width:400px;
+    }
+    .services-educational-img img{
+        max-width: 100%;
+        width:400px;
+        height: auto;
+    }
+    .service-educational .btn{
+        display: block;
+        text-align: center;
+    }
+
+    .service-educational-text h2{
+        font-size: 22pt;
+    }
+
+    .service-educational-text p{
+        font-size: 1rem;
+        padding-bottom: 10pt;
+    }
+
+    .service-educational-text h5 {
+        font-size: 17px;
+    }
+
+    .testimonial{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial .testimonial-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .testimonial-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+
+    .testimonial-row {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .testimonial-row .image {
+        justify-self: center;
+    }
+
+    .testimonial-img{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .testimonial-img .logo{
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .testimonial-desc{
+        display: grid;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .testimonial-desc p , .testimonial-desc .details .name{
+        font-size: 1rem;
+    }
+
+    .counter-section{
+        display: grid;
+    }
+
+    .counter-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 4rem;
+    }
+
+    .counter p{
+        font-size: 1rem;
+    }
+
+    .client .client-text h2{
+        font-size: 2.5rem;
+    }
+
+    .fa-4x {
+        font-size: 3em;
+    }
 }
 
 @media (max-width: 990px){
@@ -1627,23 +1879,18 @@ header.sticky{
 
     .home-text{
         width: 100%;
-        text-align: center;
     }
     
     .home-text h2 {
         margin: 5px 0px 5px;
-        font-size: 1.8rem;
+        font-size: 2rem;
         padding-top:0 !important;
-        text-align: center;
     }
     
     .home-text h3{
         font-size: 10px;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        width: 50%;
+        padding-top: 10px;
     }
 
 
@@ -1656,15 +1903,16 @@ header.sticky{
 
     .about-text p {
         font-size: 0.8rem;
+        padding-top: 20px;
     }
 
     .about2 .container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
         align-items: center;
         justify-content: center;
         text-align: center;
-        grid-gap: unset;
+        grid-gap: 3rem;
         padding-left: 10%;
         padding-right: 10%;
         padding-top: 40px;
@@ -1686,9 +1934,9 @@ header.sticky{
         color: var(--fourth-color);
         line-height: 28px;
         max-width: 800px;
-        margin-bottom: 35px;
-        text-align: justify;
-        font-size: unset;
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 10pt;
     }
 
     .value-text h2 {
@@ -1709,13 +1957,13 @@ header.sticky{
         margin-bottom: 30px;
         max-width: 100%;
         width:300px;
-        order:2;
+        order:3;
     }
     .service-all-img img{
         max-width: 100%;
         width:300px;
         height: auto;
-        order:2;
+        order:3;
     }
 
     .service-all .btn{
@@ -1730,11 +1978,11 @@ header.sticky{
     }
 
     .service-all-text{
-        order:3;
+        order:2;
     }
 
     .service-all-text h2 {
-        font-size: 1.8rem;
+        font-size: 18pt;
         text-align: center;
     }
 
@@ -1750,15 +1998,26 @@ header.sticky{
 
     .service-outbound{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
+
+    .service-outbound-text h2 {
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    .service-outbound-text p {
+        font-size: 0.8rem;
+    }
+
     .services-outbound-img{
         text-align: center;
         margin-bottom: 30px;
+        width:200px;
     }
     .services-outbound-img img{
         max-width: 100%;
-        width:700px;
+        width:200px;
         height: auto;
     }
 
@@ -1767,46 +2026,36 @@ header.sticky{
         text-align: center;
     }
 
-    .service-outbound-text h2 {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .service-outbound-text p {
-        font-size: 0.8rem;
-    }
-
     .service-educational{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
     .services-educational-img{
         text-align: center;
         margin-bottom: 30px;
-        order:1;
+        width:200px;
     }
     .services-educational-img img{
         max-width: 100%;
-        width:700px;
+        width:200px;
         height: auto;
-        order:1;
     }
     .service-educational .btn{
         display: block;
         text-align: center;
     }
 
-    .service-educational-text{
-        order:2;
-    }
-
     .service-educational-text h2{
-        font-size: 2rem;
+        font-size: 18pt;
         text-align: center;
     }
 
     .service-educational-text p{
         font-size: 0.8rem;
+    }
+
+    .service-educational-text h5 {
+        font-size: 17px;
     }
 
     .testimonial{
@@ -1824,44 +2073,42 @@ header.sticky{
         grid-gap: 2rem;
     }
 
+    .testimonial-row {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .testimonial-img{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .testimonial-img .logo{
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .testimonial-desc{
+        display: grid;
+        align-content: center;
+        justify-items: center;
+    }
+
     .counter-section{
         display: grid;
     }
 
     .counter-wrapper{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 4rem;
     }
 
     .client .client-text h2{
         font-size: 2rem;
     }
 
-
-    .footer .container{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .footer .container .address p{
-        text-align: center;
-        font-size: xx-small;
-    }
-
-    .footer .container .address h3{
-        text-align: center;
-    }
-
-    .footer .container .address p{
-        text-align: center;
-    }
-
-    .footer .container .link{
-        display: none;
-    }
-
-    .fa-4x {
-        font-size: 3em;
-    }
 }
 
 @media (max-width: 600px) {
@@ -2133,6 +2380,12 @@ header.sticky{
         grid-gap: 2rem;
     }
 
+    .testimonial-row{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
     .counter-section{
         display: grid;
     }
@@ -2175,7 +2428,34 @@ header.sticky{
 
 
 @media(max-width: 450px){
-
+    #menu-icon{
+        display:initial;
+    }
+    .navbar{
+        position: absolute;
+        top: -700px;
+        left:0;
+        right: 0;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        transition: all .30s;
+    }
+    .navbar a{
+        display: block;
+        padding: 10px;
+        margin: 10px;
+        border-left: 2px solid var(--text-color);
+    }
+    .navbar a:hover{
+        background: var(--main-color);
+    }
+    .navbar a::after{
+        display:none;
+    }
+    .navbar.active{
+        top:100%;
+    }
 
     header{
         position: fixed;
@@ -2272,13 +2552,18 @@ header.sticky{
         color: var(--fourth-color);
         line-height: 28px;
         max-width: 800px;
-        margin-bottom: 35px;
-        text-align: justify;
-        font-size: unset;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 10pt;
     }
 
     .value-text h2 {
         font-size: 2rem;
+    }
+
+    .value-content{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .value-row p {
@@ -2290,16 +2575,22 @@ header.sticky{
         grid-template-columns: 1fr;
     }
 
+    .service-all-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
     .service-all-img{
         text-align: center;
         margin-bottom: 30px;
         max-width: 100%;
-        width:300px;
+        width:200px;
         order:2;
     }
     .service-all-img img{
         max-width: 100%;
-        width:300px;
+        width:200px;
         height: auto;
         order:2;
     }
@@ -2328,10 +2619,7 @@ header.sticky{
         font-size: 0.8rem;
     }
 
-    .service-all-container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+    
     /* .service-all-img{
         display: none;
     }
@@ -2346,10 +2634,11 @@ header.sticky{
     .services-outbound-img{
         text-align: center;
         margin-bottom: 30px;
+        width:200px;
     }
     .services-outbound-img img{
         max-width: 100%;
-        width:700px;
+        width:200px;
         height: auto;
     }
 
@@ -2359,7 +2648,7 @@ header.sticky{
     }
 
     .service-outbound-text h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
     }
 
@@ -2373,12 +2662,13 @@ header.sticky{
     }
     .services-educational-img{
         text-align: center;
+        width:200px;
         margin-bottom: 30px;
         order:1;
     }
     .services-educational-img img{
         max-width: 100%;
-        width:700px;
+        width:200px;
         height: auto;
         order:1;
     }
@@ -2392,7 +2682,7 @@ header.sticky{
     }
 
     .service-educational-text h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
     }
 
@@ -2413,6 +2703,33 @@ header.sticky{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 2rem;
+    }
+
+    .testimonial-row {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .testimonial-row .testimonial-img{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-self: center;
+    }
+
+    .testimonial-img .logo{
+        justify-self: center;
+    }
+
+    .testimonial-row .image {
+        height: auto;
+        width: 200px;
+        justify-self: center;
+    } 
+
+    .counter{
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
     }
 
     .counter-section{

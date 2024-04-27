@@ -167,7 +167,15 @@ header{
 #menu-icon{
     font-size: 32px;
     color: var(--text-color);
-    z-index: 1000;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+#menu-icon2{
+    font-size: 32px;
+    color: var(--text-color);
+    z-index: 10001;
     cursor: pointer;
     display: none;
 }
@@ -273,7 +281,7 @@ span{
     background-color: var(--fourth-color);
 }
 
-header.sticky{
+.header.sticky{
     padding: 12px 15%;
     background: var(--fourth-color);
 }
@@ -854,7 +862,7 @@ header.sticky{
 }
 
 .container-team .card-team .content h2{
-    font-size:1.3em;
+    font-size:1.2em;
     font-weight: 700;
     color:var(--fourth-color);
     padding-bottom: 5px;
@@ -870,13 +878,14 @@ header.sticky{
 .container-team .card-team .content h5{
     color:var(--fourth-color);
     padding-bottom: 5px;
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: 600;
 }
 
 .container-team .card-team .content p{
     color:var(--secound-bg-color);
     font-size:9pt;
+    padding-top: 10px;
 }
 
 .container-team .card-team .content a {
@@ -1858,8 +1867,23 @@ header.sticky{
         font-size: 2.5rem;
     }
 
+    
+    .team2 .team-text h2{
+        font-size: 2.5rem;
+    }
+
     .fa-4x {
         font-size: 3em;
+    }
+
+    .about_detail{
+        display: grid;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+
+    .about_detail .about-text h2{
+        padding-top:50px;
     }
 }
 
@@ -2107,6 +2131,14 @@ header.sticky{
 
     .client .client-text h2{
         font-size: 2rem;
+    }
+
+    .about_detail {
+        padding-top: 15%;
+    }
+
+    .about_detail .about-text h2{
+        padding-top:50px;
     }
 
 }
@@ -2770,4 +2802,34 @@ header.sticky{
     .fa-4x {
         font-size: 3em;
     }
+
+    #menu-icon2{
+        display:initial;
+    }
+    .navbar2{
+        position: absolute;
+        top: -700px;
+        left:0;
+        right: 0;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        transition: all .30s;
+    }
+    .navbar2 a{
+        display: block;
+        padding: 10px;
+        margin: 10px;
+        border-left: 2px solid var(--text-color);
+    }
+    .navbar2 a:hover{
+        background: var(--main-color);
+    }
+    .navbar2 a::after{
+        display:none;
+    }
+    .navbar2.active{
+        top:100%;
+    }
+
 }

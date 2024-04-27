@@ -24,7 +24,7 @@
         <!-- start header -->
         <header class="header2">
             <a href="index.html" class="logo"><img width="50" src="assets/img/logos/logo_frame_consultant.png"></a>
-            <div class="bx bx-menu" id="menu-icon"></div>
+            <div class="bx bx-menu" id="menu-icon2"></div>
 
             <ul class="navbar2">
                 <li><a href="index.html#home">Home</a></li>
@@ -308,6 +308,21 @@
             });
   
           </script>
+
+        <script>
+            let menu2 = document.querySelector('#menu-icon2');
+            let navbar2 = document.querySelector('.navbar2');
+
+            menu2.onclick = () => {
+                menu2.classList.add('bx-x');
+                navbar2.classList.add('active');
+            }
+
+            window.onscroll = () => {
+                menu2.classList.remove('bx-x');
+                navbar2.classList.remove('active');
+            }
+        </script>
 
 
     </body>

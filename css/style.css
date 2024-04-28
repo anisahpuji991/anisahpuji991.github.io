@@ -215,23 +215,26 @@ section{
     align-items: center;
 }
 
+
+.home-text{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .home-text h2{
-    margin: 5px 0px 5px;
-    padding-top:10px;
     font-size: var(--h2-font);
+    padding: 0px;
 }
 
 span{
     color: var(--fourth-color);
 }
 
-.home-text{
-    width: 50%;
-}
-
 .home-text h3{
     font-size: 18px;
     margin-bottom: 30px;
+    margin-top:20px;
     font-weight: 400;
 }
 
@@ -281,7 +284,7 @@ span{
     background-color: var(--fourth-color);
 }
 
-.header.sticky{
+header.sticky{
     padding: 12px 15%;
     background: var(--fourth-color);
 }
@@ -798,8 +801,8 @@ span{
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    gap:90px 30px;
-    padding: 70px 40px;
+    gap:90px 0px;
+    padding: 70px 0px;
 }
 
 .container-team .card-team{
@@ -877,7 +880,7 @@ span{
 
 .container-team .card-team .content h5{
     color:var(--fourth-color);
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     font-size: 10pt;
     font-weight: 600;
 }
@@ -885,7 +888,6 @@ span{
 .container-team .card-team .content p{
     color:var(--secound-bg-color);
     font-size:9pt;
-    padding-top: 10px;
 }
 
 .container-team .card-team .content a {
@@ -957,6 +959,8 @@ span{
 
 .swipper-wrapper{
     box-sizing:unset;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .swiper-pagination-bullet{
@@ -1103,6 +1107,7 @@ span{
     line-height: 28px;
     font-size: 0.9rem;
     margin-bottom: 20px;
+    margin-top: 20px;
     text-align: justify;
 }
 
@@ -1123,12 +1128,12 @@ span{
     padding-bottom: 5px;
 }
 
-.testimonial-row .logo{
+/* .testimonial-row .logo{
     height:65px;
     width:65px;
     border-radius: 5%;
     margin-bottom: 30px;
-}
+} */
 
 
 .testimonial-row .testimonial-text{
@@ -1609,6 +1614,7 @@ span{
         padding: 10px 4%;
         transition: .2s;
     }
+    
     section{
         padding:80px 4%;
         transition: .2s;
@@ -1834,11 +1840,11 @@ span{
         align-items: center;
     }
 
-    .testimonial-img .logo{
+    /* .testimonial-img .logo{
         display: grid;
         align-self: center;
         justify-self: center;
-    }
+    } */
 
     .testimonial-desc{
         display: grid;
@@ -1961,6 +1967,11 @@ span{
         margin-bottom: 10px;
         text-align: left;
         font-size: 10pt;
+    }
+
+    .value-content{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .value-text h2 {
@@ -2099,7 +2110,7 @@ span{
 
     .testimonial-row {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
     }
 
     .testimonial-img{
@@ -2108,11 +2119,11 @@ span{
         align-items: center;
     }
 
-    .testimonial-img .logo{
+    /* .testimonial-img .logo{
         display: grid;
         align-self: center;
         justify-self: center;
-    }
+    } */
 
     .testimonial-desc{
         display: grid;
@@ -2198,7 +2209,7 @@ span{
     .home{
         height: 100vh;
         width: 100%;
-        background: url(../assets/img/header-bg-plain.png);
+        background: url(../assets/img/header-bg-full.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -2217,6 +2228,10 @@ span{
         font-size: 1.8rem;
         padding-top:0 !important;
         text-align: center;
+    }
+
+    .home-text h2 span{
+        color:#fff !important;
     }
     
     .home-text h3{
@@ -2271,6 +2286,11 @@ span{
         margin-bottom: 35px;
         text-align: justify;
         font-size: unset;
+    }
+
+    .value-content{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .value-text h2 {
@@ -2418,6 +2438,8 @@ span{
         justify-items: center;
     }
 
+ 
+
     .counter-section{
         display: grid;
     }
@@ -2428,6 +2450,11 @@ span{
 
     .client .client-text h2{
         font-size: 2rem;
+    }
+
+    .container-team {
+        gap: 90px 0px;
+        padding: 70px 0px;
     }
 
 
@@ -2514,7 +2541,7 @@ span{
     .home{
         height: 100vh;
         width: 100%;
-        background: url(../assets/img/header-bg-plain.png);
+        background: url(../assets/img/header-bg-full.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -2533,6 +2560,10 @@ span{
         font-size: 1.8rem;
         padding-top:0 !important;
         text-align: center;
+    }
+
+    .home-text h2 span{
+        color:#fff !important;
     }
     
     .home-text h3{
@@ -2749,9 +2780,9 @@ span{
         justify-self: center;
     }
 
-    .testimonial-img .logo{
+    /* .testimonial-img .logo{
         justify-self: center;
-    }
+    } */
 
     .testimonial-row .image {
         height: auto;
@@ -2776,6 +2807,15 @@ span{
         font-size: 2rem;
     }
 
+
+    .container-team .card-team .content p{
+        font-size: 8pt;
+    }
+
+    .container-team {
+        gap: 90px 5px;
+        padding: 70px 0px;
+    }
 
     .footer .container{
         display: grid;
@@ -2802,7 +2842,6 @@ span{
     .fa-4x {
         font-size: 3em;
     }
-
     #menu-icon2{
         display:initial;
     }

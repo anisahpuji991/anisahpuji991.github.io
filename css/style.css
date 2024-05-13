@@ -215,7 +215,6 @@ section{
     align-items: center;
 }
 
-
 .home-text{
     width: 50%;
     padding-top: 20px;
@@ -248,6 +247,119 @@ span{
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 500;
+}
+
+.home-assesment{
+    height: 100vh;
+    width: 100%;
+    background: url(../assets/img/services/banner_assesment_header.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+
+.home-assesment-text{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-assesment-text h2{
+    font-size: var(--h2-font);
+    padding: 0px;
+}
+
+.home-assesment-text span{
+    color: var(--fourth-color);
+}
+
+.home-assesment-text h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    width: 80%;
+}
+
+.home-training{
+    height: 100vh;
+    width: 100%;
+    background: url(../assets/img/services/banner_training_outbound_header.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+
+.home-training-text{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-training-text h2{
+    font-size: 2.5rem;
+    padding: 0px;
+}
+
+.home-training-text h2 span{
+    color: #7BBEE3;
+}
+
+.home-training-text span{
+    color: var(--fourth-color);
+}
+
+.home-training-text h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    width: 80%;
+}
+
+.home-education{
+    height: 100vh;
+    width: 100%;
+    background: url(../assets/img/services/banner_training_outbound_header.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+
+.home-education-text{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-education-text h2{
+    font-size: 2.5rem;
+    padding: 0px;
+}
+
+.home-education-text h2 span{
+    color: #7BBEE3;
+}
+
+.home-education-text span{
+    color: var(--fourth-color);
+}
+
+.home-education-text h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    width: 80%;
 }
 
 .newsletter form{
@@ -786,6 +898,23 @@ header.sticky{
     padding : 0 60px;
 }
 
+.team2 .team-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.team2 .team-text p{
+    color:var(--fourth-color);
+    text-align: justify;
+    padding-left:10%;
+    padding-right: 10%;
+    line-height: 40px;
+}
+
+.team2 .team-text span{
+    color:var(--main-color);
+}
+
 .team2 .team-text h2{
     /* background-color: #62abcc; */
     color:var(--fourth-color);
@@ -794,6 +923,8 @@ header.sticky{
     text-align: center;
     margin-bottom: 30px;
 }
+
+
 
 
 .container-team{
@@ -1172,6 +1303,126 @@ header.sticky{
 }
 
 
+.point-assesment {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+}
+
+.point-headline h2{
+    font-size: var(--h2-font);
+    text-align: center;
+    color: var(--fourth-color);
+    padding:5%;
+}
+
+.point-headline h2 span{
+    color:var(--main-color);
+}
+
+.point-content{
+    /* background-color: #a04646; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap: 2rem;
+    /* align-items: center; */
+}
+
+.point-text h2{
+    /* background-color: #62abcc; */
+    color:var(--fourth-color);
+    font-size: var(--h2-font);
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.point-row{
+    background-color: var(--fourth-color);
+    padding: 30px 30px;
+    border-radius: 40px;
+    cursor:default;
+    transition: all .35s;
+}
+
+
+.point-row i{
+    color: var(--main-color);
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+}
+
+.point-row h3{
+    /* background-color: #62abcc; */
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.point-row p{
+    color:var(--text-color);
+    line-height: 30px;
+    font-size: var(--p-font);
+    text-align: left;
+}
+
+.point-row:hover{
+    transform: translateY(-8px);
+}
+
+  
+.point-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+.point-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.point img{
+    max-width: 100%;
+    width:100px;
+    height: 100px;
+}
+
+
+.point-title {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(--text-color);
+    display: flex;
+}
+
+
+.point-text-contents {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: #b3aeb5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 .portfolio{
@@ -1514,6 +1765,228 @@ header.sticky{
     color:var(--fourth-color);
   }
 
+.faq-assesment{
+    background-color:var(--third-bg-color);
+    color: var(--fourth-color);
+}
+
+.faq-title h2{
+    font-size: var(--h2-font);
+    text-align: center;
+}
+
+.faq-title span{
+    color:var(--main-color);
+}
+
+.faq-container{
+    background: var(--third-bg-color);
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap:3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+}
+
+.faq-img{
+    /* background:#465879; */
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.faq-img img{
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.faq-text{
+    max-width: 700px;
+    padding-top: 1rem;
+    border-bottom: 1px solid #AF2639;
+    cursor: pointer;
+    
+}
+
+.faq-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question h3{
+    font-size: 1.2rem;
+}
+
+
+.faq-answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.faq-answer p{
+    line-height: 1.6;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 15px
+}
+
+.faq-text.active .faq-answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq-text.active svg{
+    transform: rotate(180deg);
+}
+
+.faq-text svg{
+    transition: transform 0.5s ease-in;
+}
+
+@keyframes fade {
+    from{
+        opacity : 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.step-assesment{
+    background-color:var(--fourth-bg-color);
+    color: var(--fourth-color);
+}
+
+.step-title h2{
+    font-size: var(--h2-font);
+    text-align: center;
+}
+
+.step-title span{
+    color:var(--main-color);
+}
+
+.step-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+}  
+
+.progress-bar{
+    list-style: none;
+}
+
+.progress-bar li{
+    position:relative;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: #8e8e8e;
+}
+
+.progress-bar li::before{
+    /* position: absolute;
+    top:0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: 1.5px;
+    content: '';
+    background-color: var(--main-color); */
+    line-break: 25px;
+    text-align:center;
+    position:absolute;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    left: -40px;
+    top: -5px;
+    z-index:10;
+    background-color: #000;
+}
+
+.progress-bar li::after{
+    position: absolute;
+    top: -50px;
+    bottom: 0px;
+    left: 79px;
+    width: 3px;
+    height: 50px;
+    z-index: 1;
+    margin-left: 1.5px;
+    content: '';
+    background-color: var(--main-color);
+}
+
+.progress-bar li.active::after{
+    background: white;
+}
+
+.progress-bar li:first-child::after{
+    display: none;
+}
+
+.progress-bar li.active::before{
+    color:#4f39c7;
+    border: 1px solid white;
+    background: white;
+}
+
+.progress-bar li.active{
+    color:white;
+}
+
+.progress-content{
+    display: grid;
+    grid-template-columns: repeat(2,15% 85%);
+    gap: 0.5rem;
+}
+
+.progress-content p{
+    width: 100%;
+    color: var(--fourth-color);
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-weight: 400;
+    font-size: var(--p-font);
+} 
+
+.progress-desc{
+    display: grid;
+    grid-template-columns: repeat(2,auto 90%);
+    gap: 1rem;
+}
+
+.progress-desc h1{
+    font-size: 5rem;
+    color:var(--text-color);
+    align-self: center;
+}
+
+.progress-subdesc{
+    vertical-align: middle;
+    align-self: center;
+}
+
+.progress-subdesc h4{
+    font-size: x-large;
+    color: var(--fourth-color);
+}
+
+/* FOOTER */
 
 .footer{
     text-align: center;
@@ -1554,8 +2027,10 @@ header.sticky{
 
 .footer .container .address p{
     text-align: left;
-    font-size:small;
+    font-size: larger;
     color: var(--text-color);
+    padding-left: 10px;
+    font-weight: 600;
 }
 
 .footer .container .link{
@@ -1579,16 +2054,28 @@ header.sticky{
 }
 
 .footer .container .socmed{
-    text-align: left;
+    text-align: center;
     justify-self: center;
     align-self:center;
 }
 
-.footer .container .socmed a{
+.footer .container .socmed .socmed-question{
+    padding-bottom: 5%;
+}
+
+.footer .container .socmed .socmed-question p{
+    text-align: center;
+    font-size: larger;
+    color: var(--text-color);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.footer .container .socmed-icon a{
     color: var(--text-color);
 }
 
-.footer .container .socmed a:hover{
+.footer .container .socmed-icon a:hover{
     color: var(--icon-color);
 }
 
@@ -1891,6 +2378,12 @@ header.sticky{
     .about_detail .about-text h2{
         padding-top:50px;
     }
+
+    .progress-bar li::after {
+        top: -75px;
+        left: 60px;
+        height: 75px;
+    }
 }
 
 @media (max-width: 990px){
@@ -2144,6 +2637,15 @@ header.sticky{
         font-size: 2rem;
     }
 
+    .footer .container {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .footer .container .link {
+        display: none;
+    }
+
     .about_detail {
         padding-top: 15%;
     }
@@ -2151,6 +2653,179 @@ header.sticky{
     .about_detail .about-text h2{
         padding-top:50px;
     }
+
+    .home-assesment{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/services/banner_assesment_header.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-assesment-text{
+        width: 100%;
+    }
+    
+    .home-assesment-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 2rem;
+        padding-top:0 !important;
+    }
+    
+    .home-assesment-text h3{
+        font-size: 10px;
+        width: 50%;
+        padding-top: 10px;
+    }
+
+    .home-training{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/services/banner_training_outbound_header.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-training-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-training-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 1.8rem;
+        padding-top:0 !important;
+        text-align: center;
+    }
+
+    .home-training-text h2 span{
+        color:#fff !important;
+    }
+    
+    .home-training-text h3{
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-education{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/header-bg-full.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-education-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-education-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 1.8rem;
+        padding-top:0 !important;
+        text-align: center;
+    }
+
+    .home-education-text h2 span{
+        color:#fff !important;
+    }
+    
+    .home-education-text h3{
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .point-headline h2{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    .faq-title h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .faq-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+     .step-title h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .step-container{
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .progress-bar li {
+        position: relative;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .progress-content {
+        gap:1rem;
+    }
+
+    .progress-desc {
+        display: grid;
+        grid-template-columns: repeat(2, auto 90%);
+    }
+
+    .progress-desc h1 {
+        font-size: 2rem;
+    }
+
+    .progress-subdesc h4 {
+        font-size: 1.2rem;
+        color: var(--fourth-color);
+    }
+
+    .progress-content p {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .progress-content .fa-4x{
+        font-size: 2.5em;
+    }
+
+    .progress-bar li::after {
+        top: -50px;
+        left: 49px;
+        height: 50px;
+        margin-left: 1.5px;
+    }
+
+    /*.fa-center{
+        width: auto;
+    } */
 
 }
 
@@ -2465,14 +3140,10 @@ header.sticky{
 
     .footer .container .address p{
         text-align: center;
-        font-size: xx-small;
+        font-size: large;
     }
 
     .footer .container .address h3{
-        text-align: center;
-    }
-
-    .footer .container .address p{
         text-align: center;
     }
 
@@ -2482,6 +3153,179 @@ header.sticky{
 
     .fa-4x {
         font-size: 3em;
+    }
+
+    .home-assesment{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/services/banner_assesment_header.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-assesment-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-assesment-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 1.8rem;
+        padding-top:0 !important;
+        text-align: center;
+    }
+
+    .home-assesment-text h2 span{
+        color:#fff !important;
+    }
+    
+    .home-assesment-text h3{
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-training{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/services/banner_training_outbound_header.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-training-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-training-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 1.8rem;
+        padding-top:0 !important;
+        text-align: center;
+    }
+
+    .home-training-text h2 span{
+        color:#fff !important;
+    }
+    
+    .home-training-text h3{
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-education{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/header-bg-full.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-education-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-education-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 1.8rem;
+        padding-top:0 !important;
+        text-align: center;
+    }
+
+    .home-education-text h2 span{
+        color:#fff !important;
+    }
+    
+    .home-education-text h3{
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .point-headline h2{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .faq-title h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .faq-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .step-title h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .step-container{
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .progress-bar li {
+        position: relative;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .progress-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .progress-desc {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .progress-subdesc h4 {
+        font-size: 1.2rem;
+        color: var(--fourth-color);
+    }
+
+    .progress-content p {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .progress-bar li::after {
+        display: none;
+    }
+
+    .fa-center{
+        width: auto;
     }
 }
 
@@ -2574,7 +3418,6 @@ header.sticky{
         padding-left: 15px;
         padding-right: 15px;
     }
-
 
     .about .about-text {
         display: grid;
@@ -2824,15 +3667,7 @@ header.sticky{
 
     .footer .container .address p{
         text-align: center;
-        font-size: xx-small;
-    }
-
-    .footer .container .address h3{
-        text-align: center;
-    }
-
-    .footer .container .address p{
-        text-align: center;
+        font-size: large;
     }
 
     .footer .container .link{
@@ -2869,6 +3704,179 @@ header.sticky{
     }
     .navbar2.active{
         top:100%;
+    }
+
+    .home-assesment{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/services/banner_assesment_header.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-assesment-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-assesment-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 1.8rem;
+        padding-top:0 !important;
+        text-align: center;
+    }
+
+    .home-assesment-text h2 span{
+        color:#fff !important;
+    }
+    
+    .home-assesment-text h3{
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-training{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/services/banner_training_outbound_header.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-training-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-training-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 1.8rem;
+        padding-top:0 !important;
+        text-align: center;
+    }
+
+    .home-training-text h2 span{
+        color:#fff !important;
+    }
+    
+    .home-training-text h3{
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-education{
+        height: 100vh;
+        width: 100%;
+        background: url(../assets/img/header-bg-full.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .home-education-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-education-text h2 {
+        margin: 5px 0px 5px;
+        font-size: 1.8rem;
+        padding-top:0 !important;
+        text-align: center;
+    }
+
+    .home-education-text h2 span{
+        color:#fff !important;
+    }
+    
+    .home-education-text h3{
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .point-headline h2{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .faq-title h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .faq-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .step-title h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .step-container{
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .progress-bar li {
+        position: relative;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .progress-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .progress-desc {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .progress-subdesc h4 {
+        font-size: 1.2rem;
+        color: var(--fourth-color);
+    }
+
+    .progress-content p {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .progress-bar li::after {
+        display: none;
+    }
+
+    .fa-center{
+        width: auto;
     }
 
 }

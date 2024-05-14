@@ -326,7 +326,7 @@ span{
 .home-education{
     height: 100vh;
     width: 100%;
-    background: url(../assets/img/services/banner_training_outbound_header.png);
+    background: url(../assets/img/services/banner_education_psychology_header.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -2722,7 +2722,7 @@ header.sticky{
     .home-education{
         height: 100vh;
         width: 100%;
-        background: url(../assets/img/header-bg-full.png);
+        background: url(../assets/img/services/banner_education_psychology_header.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -3232,7 +3232,7 @@ header.sticky{
     .home-education{
         height: 100vh;
         width: 100%;
-        background: url(../assets/img/header-bg-full.png);
+        background: url(../assets/img/services/banner_education_psychology_header.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -3783,7 +3783,7 @@ header.sticky{
     .home-education{
         height: 100vh;
         width: 100%;
-        background: url(../assets/img/header-bg-full.png);
+        background: url(../assets/img/services/banner_education_psychology_header.png);
         background-size: cover;
         background-position: center;
         position: relative;

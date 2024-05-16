@@ -72,12 +72,11 @@ header{
 
 .navbar a{
     color:var(--text-color);
-    font-weight: bold;
     font-size: 1rem;
     padding: 10px 20px;
 }
 
-.navbar a::after{
+/* .navbar a::after{
     content: '';
     position: absolute;
     width:0;
@@ -86,11 +85,11 @@ header{
     left:0;
     bottom: -4px;
     transition: ease .40s;
-}
+} */
 
-.navbar a:hover::after{
+/* .navbar a:hover::after{
     width:100%;
-}
+} */
 
 .navbar2{
     display: flex;
@@ -102,12 +101,11 @@ header{
 
 .navbar2 a{
     color:var(--text-color);
-    font-weight: bold;
     font-size: 1rem;
     padding: 10px 20px;
 }
 
-.navbar a::after{
+/* .navbar a::after{
     content: '';
     position: absolute;
     width:0;
@@ -116,11 +114,11 @@ header{
     left:0;
     bottom: -4px;
     transition: ease .40s;
-}
+} */
 
-.navbar a:hover::after{
+/* .navbar a:hover::after{
     width:100%;
-}
+} */
 
 .dropdown {
     float: left;
@@ -129,7 +127,6 @@ header{
 
 .dropdown .dropbtn { 
     color:var(--text-color);
-    font-weight: bold;
     font-size: 1rem;
     border: none;
 }
@@ -398,7 +395,7 @@ span{
 
 header.sticky{
     padding: 12px 15%;
-    background: var(--fourth-color);
+    background-color: rgba(17,26,67,0.8);
 }
 
 .sticky .navbar a::after{
@@ -1338,7 +1335,7 @@ header.sticky{
 }
 
 .point-row{
-    background-color: var(--fourth-color);
+    /* background-color: #6c757d; */
     padding: 30px 30px;
     border-radius: 40px;
     cursor:default;
@@ -1354,23 +1351,62 @@ header.sticky{
 
 .point-row h3{
     /* background-color: #62abcc; */
-    color: var(--text-color);
+    color: var(--fourth-color);
     font-size: 22px;
     font-weight: 700;
     padding-bottom: 15px;
     padding-top: 15px;
     text-align: left;
     text-transform: uppercase;
+    justify-content: center;
 }
 
 .point-row p{
-    color:var(--text-color);
+    color:var(--fourth-color);
     line-height: 30px;
     font-size: var(--p-font);
-    text-align: left;
+    text-align: center;
 }
 
 .point-row:hover{
+    transform: translateY(-8px);
+}
+
+.point-row2{
+    /* background-color: #6c757d; */
+    padding: 30px 30px;
+    cursor:default;
+    transition: all .35s;
+    border-left: 1px solid var(--fourth-color);
+    border-right: 1px solid var(--fourth-color);
+}
+
+.point-row2 i{
+    color: var(--main-color);
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+}
+
+.point-row2 h3{
+    /* background-color: #62abcc; */
+    color: var(--fourth-color);
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.point-row2 p{
+    color:var(--fourth-color);
+    line-height: 30px;
+    font-size: var(--p-font);
+    text-align: center;
+}
+
+.point-row2:hover{
     transform: translateY(-8px);
 }
 
@@ -1379,9 +1415,10 @@ header.sticky{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
+    color: var(--fourth-color);
 }
   
 .point-icon p {
@@ -2873,7 +2910,7 @@ header.sticky{
 
     header.sticky{
         padding: 12px 15%;
-        background: var(--fourth-color);
+        background-color: rgba(17,26,67,0.8);
     }
     
     /* .home{
@@ -3374,7 +3411,7 @@ header.sticky{
 
     header.sticky{
         padding: 12px 15%;
-        background: var(--fourth-color);
+        background-color: rgba(17,26,67,0.8);
     }
     
     /* .home{
